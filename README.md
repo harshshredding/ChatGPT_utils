@@ -1,2 +1,2 @@
 # ChatGPT_utils
-Some useful code from querying ChatGPT
+Some useful code for querying ChatGPT
