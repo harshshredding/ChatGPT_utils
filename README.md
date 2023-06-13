@@ -16,12 +16,12 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-Run `python chatgpt.py` to query chatgpt twice with the following two queries:  
+Run `python chatgpt.py` to query chatgpt twice with the following two example queries:  
 ```
 1) What is the capital of France ?
 2) What is the capital of India ?
 ```
-It should return store the following results in the file `./test.json`:
+It should store the results in `./test.json`, as follows:
 ```
 [[0, "The capital of France is Paris."], [1, "The capital of India is New Delhi."]]
 ```
