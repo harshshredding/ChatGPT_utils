@@ -49,7 +49,7 @@ def query_multiple(
         for _ in range(3):
             try:
                 chatgpt_prediction = query_with_template(query)
-                # if successful, break and continue to next sample
+                # if successful, break and continue to next query
                 break
             except Exception as e:
                 print(red("An error occurred."))
