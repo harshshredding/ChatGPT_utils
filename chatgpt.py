@@ -27,7 +27,8 @@ def query_multiple(
         query_with_template: Callable[[str],str]):
     """
     Query chatgpt with the given prompts sequentially and store the results
-    in a file locally.
+    in a file locally. It also stores partial results periodically so that you
+    don't end up wasting your money.
 
     Parameters:
         queries (list[str]): The queries for chatgpt. Usually, a query corresponds to a sample 
